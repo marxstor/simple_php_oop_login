@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION["user_login_status"])) {
-    header("location: login.php");
+    header("location: index.php");
 }
 ?>
 
@@ -20,6 +20,6 @@ if(!isset($_SESSION["user_login_status"])) {
     <br/>
     <br/>
 
-    <a href = "login.php?logout">Logout</a>
+    <a href = "index.php?logout">Logout</a>
 </body>
 </html>

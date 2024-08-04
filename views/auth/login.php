@@ -29,7 +29,7 @@
                     // var_dump($login->messages);
                 ?>
 
-                <form action="login.php" method="post" class = "space-y-4">
+                <form action="index.php" method="post" class = "space-y-4">
                     <div>
                         <label for="email" class = "block mb-2 text-sm font-medium text-gray-900">Your email</label>
                         <input type="email" class = "bg-gray-50 border border-gray-300 text-gray-900 w-full p-2 rounded-lg focus:ring-blue-600 focus:border-blue-600 focus:outline-none" placeholder ="name@company.com" required = "" name = "email">
